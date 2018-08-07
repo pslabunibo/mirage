@@ -1,9 +1,8 @@
-# MiRAgE
-# Mixed Reality based Augmented Environments
+# MiRAgE - Mixed Reality based Augmented Environments
 
 The Augmented World conceptual framework [5, 6] aims at exploring the use of the agent paradigm to design and develop agent-based pervasive mixed reality systems - called augmented worlds (AWs) - integrating both concepts and technology from Augmented/Mixed Reality and from Pervasive Computing/IoT. MiRAgE is a technological framework to explore in practice the design and development of AWs, possibly in different application domains. Key requirements for the platform are: to support heterogeneous agent technologies to implement the agents inside an AW; to reuse and exploit state-of-the-art AR/MR enabling technologies, properly encapsulated so as to keep the agent-oriented level of abstraction dened by the AW conceptual framework.
 
-![Fig.1 Mirage Conceptual Architecture](https://ibb.co/nxeA5e)
+![Fig.1 Mirage Conceptual Architecture](https://image.ibb.co/iqjMBK/aw_framework_architecture.jpg)
 
 MiRAgE - Fig. 1 shows an abstract architecture - provides an API and a runtime to develop and run AugmentedWorlds. According to the AugmentedWorld conceptual framework, an agent-based pervasive mixed reality system (i.e., an AW) is modelled as a multi-agent system - possibly open, heterogeneous, distributed - situated into an application/virtual environment mapped onto some physical space. Such environment is composed by augmented entities (AEs), as computational objects located in some specific point of the physical space - pro-
 viding some action interface to agents - and possibly featuring an hologram as a AR/MR representation to be perceived by human users situated in the same environment. An AE can be used to model also real objects belonging the physical environment, functioning as a mirror or avatar inside the AW. The framework provide an API to implement AEs in a similar way to objects in mainstream object-oriented programming (OOP) languages.
